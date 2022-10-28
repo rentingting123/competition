@@ -1,0 +1,153 @@
+ul[data-v-4fb7603b] {
+  width: 1248px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+ul li[data-v-4fb7603b] {
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 24px;
+  float: left;
+}
+ul[data-v-4fb7603b] :nth-child(3n) {
+  margin-right: 0;
+}
+ul li[data-v-4fb7603b]:hover {
+  background-size: 110%;
+}
+
+ul[data-v-4b3ebe7c] {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+ul li[data-v-4b3ebe7c] {
+  width: 200px;
+  margin-right: 100px;
+  text-align: center;
+  float: left;
+}
+ul li .i[data-v-4b3ebe7c] {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100%;
+  background: #F9F9FA;
+}
+ul li .i i[data-v-4b3ebe7c] {
+  font-size: 65px;
+  color: #78BEFF;
+}
+ul li .i[data-v-4b3ebe7c]:hover {
+  background: #78BEFF;
+}
+ul li .i:hover i[data-v-4b3ebe7c] {
+  color: #FAFAFA;
+}
+ul li h3[data-v-4b3ebe7c] {
+  font-size: 16px;
+  color: #4A4A4A;
+  margin: 24px 0 10px 0;
+}
+ul li .mess[data-v-4b3ebe7c] {
+  font-size: 13px;
+  color: #4A4A4A;
+}
+ul[data-v-4b3ebe7c] :nth-child(4n) {
+  margin-right: 0;
+}
+
+ul[data-v-44542869] {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+ul li[data-v-44542869] {
+  width: 183px;
+  margin-right: 40px;
+  text-align: center;
+  float: left;
+}
+ul li .i[data-v-44542869] {
+  margin: 0 auto;
+  width: 102px;
+  height: 102px;
+  line-height: 102px;
+  border-radius: 100%;
+  background: #78BEFF;
+}
+ul li .i i[data-v-44542869] {
+  font-size: 54px;
+  color: #FAFAFA;
+}
+ul li h3[data-v-44542869] {
+  font-size: 16px;
+  color: #5871A9;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
+}
+ul li[data-v-44542869]:nth-child(5) {
+  margin-right: 0;
+}
+ul li.next[data-v-44542869] {
+  width: 10px;
+  height: 102px;
+  line-height: 102px;
+  color: #0078E2;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.expendingServices[data-v-a66852ac] {
+  width: 100%;
+  height: auto;
+}
+.expendingServices .banner[data-v-a66852ac] {
+  max-width: 1920px;
+  height: 610px;
+  margin: 0 auto;
+  background: url(https://web.moocollege.com/mooc/hzq/vueskin/assets/provinceSkin/expendingServices/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.expendingServices .promotion[data-v-a66852ac] {
+  width: 100%;
+  background: #ffffff;
+  padding: 72px 0 0 0;
+}
+.expendingServices .promotion h1[data-v-a66852ac] {
+  font-size: 30px;
+  color: #4A4A4A;
+  text-align: center;
+  line-height: 41px;
+}
+.expendingServices .promotion h1 span[data-v-a66852ac] {
+  margin: 0 20px;
+}
+.expendingServices .promotion h1 i[data-v-a66852ac] {
+  color: #3EA5FF;
+  font-size: 24px;
+  line-height: 41px;
+}
+.expendingServices .promotion h2[data-v-a66852ac] {
+  font-size: 20px;
+  color: #4A4A4A;
+  text-align: center;
+  line-height: 30px;
+  margin: 34px 0;
+  font-weight: 150;
+}
+.expendingServices .promotion > img[data-v-a66852ac] {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+.expendingServices .promotion.color[data-v-a66852ac] {
+  background: #F8FAFC;
+  margin-top: 85px;
+  padding-bottom: 90px;
+}
+

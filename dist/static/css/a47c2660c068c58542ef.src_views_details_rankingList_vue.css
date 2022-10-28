@@ -1,0 +1,168 @@
+#rankingList[data-v-31821006] {
+  width: 1040px;
+  margin: auto;
+  background-color: #fff;
+  min-height: 337px;
+  box-sizing: border-box;
+  padding: 24px 70px;
+  text-align: start;
+}
+#rankingList h1[data-v-31821006] {
+  font-size: 30px;
+  border-left: 4px solid #1D86FF;
+  padding-left: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+#rankingList .decline[data-v-31821006] {
+  color: #1CCB4C;
+}
+#rankingList .goUp[data-v-31821006] {
+  color: #CB3A4C;
+}
+#rankingList .empty[data-v-31821006] {
+  min-height: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rankingList .dialog_content[data-v-31821006] {
+  width: 300px;
+  margin: auto;
+  text-align: start;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] {
+  margin-top: 16px;
+  width: 300px;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] .el-upload-dragger {
+  width: 300px;
+  overflow: visible;
+  position: relative;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] .el-upload-dragger .downTemt {
+  position: absolute;
+  bottom: 5px;
+  right: -85px;
+  color: #4A4A4A;
+  font-size: 14px;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] .el-upload-dragger .downTemt i {
+  color: #9B9B9B;
+  margin-right: 3px;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] .el-upload-dragger .downTemt:hover {
+  color: #1D86FF;
+}
+#rankingList .dialog_content .upload-demo[data-v-31821006] .el-upload-dragger .downTemt:hover i {
+  color: #1D86FF;
+}
+#rankingList .dialog_content .button[data-v-31821006] {
+  padding: 4px 8px;
+  margin-top: 16px;
+  margin-bottom: 7px;
+  border: 1px solid #1D86FF;
+}
+#rankingList .dialog_content .button .button_content[data-v-31821006] {
+  display: flex;
+  align-items: center;
+}
+#rankingList .dialog_content .button .button_content i[data-v-31821006] {
+  color: #1D86FF;
+  font-size: 20px;
+}
+#rankingList .dialog_content .button .button_content span[data-v-31821006] {
+  margin-left: 4px;
+  color: #1D86FF;
+}
+#rankingList .dialog_content .button-dis[data-v-31821006] {
+  padding: 4px 8px;
+  margin-top: 16px;
+  margin-bottom: 7px;
+  border: 1px solid #DFDFDF;
+  background: #DFDFDF;
+}
+#rankingList .dialog_content .button-dis .button_content[data-v-31821006] {
+  display: flex;
+  align-items: center;
+}
+#rankingList .dialog_content .button-dis .button_content i[data-v-31821006] {
+  color: #9B9B9B;
+  font-size: 20px;
+}
+#rankingList .dialog_content .button-dis .button_content span[data-v-31821006] {
+  margin-left: 4px;
+  color: #9B9B9B;
+}
+#rankingList .dialog_content p[data-v-31821006] {
+  font-size: 12px;
+  color: #4A4A4A;
+}
+#rankingList .dialog_content p span[data-v-31821006] {
+  color: red;
+  margin-right: 4px;
+}
+#rankingList ul[data-v-31821006] {
+  display: flex;
+  font-size: 14px;
+}
+#rankingList ul li[data-v-31821006] {
+  cursor: pointer;
+}
+#rankingList ul li:hover span[data-v-31821006] {
+  color: #1D86FF;
+}
+#rankingList ul li > em[data-v-31821006] {
+  margin: 0px 15px;
+  color: #DEDEDE;
+}
+#rankingList ul .add_ranking[data-v-31821006] {
+  display: flex;
+  align-items: center;
+  color: #9B9B9B;
+}
+#rankingList ul .add_ranking i[data-v-31821006] {
+  margin-top: 1px;
+  margin-right: 5px;
+}
+#rankingList ul .active_color[data-v-31821006] {
+  color: #1D86FF;
+}
+#rankingList[data-v-31821006] .el-table th {
+  font-size: 14px;
+  color: #4A4A4A;
+  background: #F7F7F7;
+}
+#rankingList .download[data-v-31821006] {
+  font-size: 14px;
+  margin-top: 15px;
+}
+#rankingList .download span[data-v-31821006] {
+  color: #1D86FF;
+  cursor: pointer;
+}
+#rankingList .full[data-v-31821006] {
+  text-align: center;
+  padding: 20px 0;
+}
+#rankingList .full h4[data-v-31821006] {
+  font-size: 16px;
+}
+#rankingList .full p[data-v-31821006] {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#rankingList[data-v-31821006] .upper .el-dialog__header {
+  display: none;
+}
+#rankingList .comma em[data-v-31821006] {
+  display: inline;
+}
+#rankingList .comma span:last-child em[data-v-31821006] {
+  display: none;
+}
+#rankingList .comma span:nth-child(3n) em[data-v-31821006] {
+  display: none;
+}
+

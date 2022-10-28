@@ -1,0 +1,13 @@
+.verify[data-v-bc1337d4] {
+  background: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(210, 207, 207, 0.5);
+  padding: 27px 21px;
+}
+.verify .search[data-v-bc1337d4] {
+  text-align: left;
+  margin-bottom: 44px;
+}
+.verify .search .el-select[data-v-bc1337d4] {
+  margin-right: 20px;
+}
+

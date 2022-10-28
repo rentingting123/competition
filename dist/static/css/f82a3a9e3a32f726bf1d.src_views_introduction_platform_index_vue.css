@@ -1,0 +1,46 @@
+.introductionPlatform[data-v-32bd25be] {
+  width: 100%;
+  height: auto;
+}
+.introductionPlatform .banner[data-v-32bd25be] {
+  max-width: 1920px;
+  height: 610px;
+  margin: 0 auto;
+  background: url(https://web.moocollege.com/mooc/hzq/competition/introduction/platbanner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.introductionPlatform .main[data-v-32bd25be] {
+  width: 100%;
+  background: #ffffff;
+  padding: 200px 0;
+}
+.introductionPlatform .main > div[data-v-32bd25be] {
+  width: 1000px;
+  margin: 0 auto;
+  height: 316px;
+}
+.introductionPlatform .main > div img[data-v-32bd25be] {
+  width: 316px;
+  float: left;
+}
+.introductionPlatform .main > div div[data-v-32bd25be] {
+  height: 316px;
+  width: 560px;
+  float: right;
+}
+.introductionPlatform .main > div div h1[data-v-32bd25be] {
+  font-size: 48px;
+  color: #4A4A4A;
+  text-align: right;
+  margin: 10px 0 25px;
+}
+.introductionPlatform .main > div div p[data-v-32bd25be] {
+  font-size: 20px;
+  color: #4A4A4A;
+  line-height: 30px;
+  text-indent: 2em;
+  text-align: left;
+  font-weight: 150;
+}
+

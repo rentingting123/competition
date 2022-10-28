@@ -1,0 +1,169 @@
+.login ul[data-v-875112a0] {
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin: 27px 0;
+}
+.login ul li[data-v-875112a0] {
+  float: left;
+  width: 50%;
+  cursor: pointer;
+}
+.login ul li.on[data-v-875112a0] {
+  font-size: 24px;
+  font-weight: bold;
+}
+.login .el-input[data-v-875112a0] {
+  margin-bottom: 30px;
+}
+.login .el-button[data-v-875112a0] {
+  margin-bottom: 17px;
+  width: 100%;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+.login p[data-v-875112a0] {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: right;
+}
+.login p span[data-v-875112a0] {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.adminlogin .el-input__inner {
+  border-radius: 40px;
+  background: rgba(236, 238, 242, 0.2);
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+.adminlogin .el-input-group--append .el-input__inner {
+  border-radius: 40px 0 0 40px;
+}
+.adminlogin .el-input-group__append {
+  border-radius: 0 40px 40px 0;
+  background: #D1D4DB;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+
+.login h2[data-v-448de42c] {
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin: 27px 0;
+}
+.login .el-input[data-v-448de42c] {
+  margin-bottom: 30px;
+}
+.login .el-button[data-v-448de42c] {
+  margin-bottom: 17px;
+  width: 100%;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+.login p[data-v-448de42c] {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: right;
+}
+.login p span[data-v-448de42c] {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.adminlogin .el-input__inner {
+  border-radius: 40px;
+  background: rgba(236, 238, 242, 0.2);
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+.adminlogin .el-input-group--append .el-input__inner {
+  border-radius: 40px 0 0 40px;
+}
+.adminlogin .el-input-group__append {
+  border-radius: 0 40px 40px 0;
+  background: #D1D4DB;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+
+.login h2[data-v-6f449abe] {
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin: 27px 0;
+}
+.login .el-input[data-v-6f449abe] {
+  margin-bottom: 30px;
+}
+.login .el-button[data-v-6f449abe] {
+  margin-bottom: 17px;
+  width: 100%;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+.login p[data-v-6f449abe] {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: right;
+}
+.login p span[data-v-6f449abe] {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.adminlogin .el-input__inner {
+  border-radius: 40px;
+  background: rgba(236, 238, 242, 0.2);
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+.adminlogin .el-input-group--append .el-input__inner {
+  border-radius: 40px 0 0 40px;
+}
+.adminlogin .el-input-group__append {
+  border-radius: 0 40px 40px 0;
+  background: #D1D4DB;
+  font-size: 16px;
+  color: #A3A3A3;
+}
+
+.adminlogin[data-v-13051d77] {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 28px;
+  background: url('https://web.moocollege.com/mooc/hzq/competition/cert/mlogo.png') no-repeat, linear-gradient(-49deg, #0078E2 0%, #2BD2B3 100%);
+  background-position: bottom right,top left;
+  position: relative;
+}
+.adminlogin .middle[data-v-13051d77] {
+  width: 90%;
+  margin: 0 auto;
+}
+.adminlogin .header[data-v-13051d77] {
+  width: 100%;
+  padding: 31px 0 21px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.adminlogin .header img[data-v-13051d77] {
+  width: 80%;
+  height: auto;
+}
+.adminlogin .footer[data-v-13051d77] {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+

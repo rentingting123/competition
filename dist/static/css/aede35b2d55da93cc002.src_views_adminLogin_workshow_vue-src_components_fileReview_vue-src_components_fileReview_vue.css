@@ -1,0 +1,211 @@
+
+.pdfobject-container{
+  height: calc(100vh - 150px);
+}
+.err-pdf-dom{
+  padding: 20px;
+  color: red
+}
+
+.ow365m[data-v-740bfff8] {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.ow365l[data-v-740bfff8] {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2001;
+}
+.ow365ctool[data-v-740bfff8] {
+  position: absolute;
+  top: 1px;
+  left: 88px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.ow365ctool[data-v-740bfff8]:hover {
+  background-color: #5a5a5a;
+}
+
+.adminlogin[data-v-1f50faf9] {
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://web.moocollege.com/mooc/hzq/competition/cert/mlogo.png') no-repeat, linear-gradient(-49deg, #0078E2 0%, #2BD2B3 100%);
+  background-position: bottom right,top left;
+  position: relative;
+}
+.adminlogin .middle[data-v-1f50faf9] {
+  width: 100%;
+  margin: 0 auto;
+}
+.adminlogin .header[data-v-1f50faf9] {
+  width: 100%;
+  padding: 21px 0 21px;
+}
+.adminlogin .header img[data-v-1f50faf9] {
+  width: 80%;
+  height: auto;
+}
+.adminlogin .team[data-v-1f50faf9] {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  position: relative;
+}
+.adminlogin .team > p[data-v-1f50faf9] {
+  position: absolute;
+  top: 83px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 92px;
+  height: 20px;
+  border-radius: 20px;
+  background: #0078E2;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.adminlogin .team h2[data-v-1f50faf9] {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  line-height: 83px;
+  text-align: center;
+  font-size: 20px;
+  color: #4A4A4A;
+  border-bottom: 1px #0078e2 dashed;
+}
+.adminlogin .team ul[data-v-1f50faf9] {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  height: auto;
+  font-size: 16px;
+  color: #4A4A4A;
+  text-align: left;
+  padding: 21px 0;
+}
+.adminlogin .team ul li[data-v-1f50faf9] {
+  display: flex;
+  height: 50px;
+  overflow: hidden;
+  padding: 0 16px;
+  margin-bottom: 10px;
+}
+.adminlogin .team ul li > img[data-v-1f50faf9] {
+  border-radius: 100%;
+  margin-right: 8px;
+}
+.adminlogin .team ul li p[data-v-1f50faf9] {
+  font-size: 14px;
+}
+.adminlogin .team ul li .message_txt[data-v-1f50faf9] {
+  font-size: 16px;
+}
+.adminlogin .team ul li .message_txt em[data-v-1f50faf9] {
+  margin: 0 8px;
+}
+.adminlogin .team ul li .message_txt span[data-v-1f50faf9] {
+  font-size: 13px;
+  color: #89acd5;
+}
+.adminlogin .workdetail[data-v-1f50faf9] {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 2px 4px 0 rgba(206, 225, 243, 0.5);
+}
+.adminlogin .workdetail h2[data-v-1f50faf9] {
+  font-size: 18px;
+  color: #4A4A4A;
+  line-height: 27px;
+  padding-top: 20px;
+}
+.adminlogin .workdetail h2 p[data-v-1f50faf9] {
+  width: 26px;
+  height: 2px;
+  background: #D7DFE8;
+  margin: 8px auto;
+}
+.adminlogin .workdetail > div[data-v-1f50faf9] {
+  font-size: 15px;
+  color: #4A4A4A;
+  line-height: 20px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 4px 0 rgba(206, 225, 243, 0.5);
+}
+.adminlogin .workdetail > div p[data-v-1f50faf9] {
+  min-height: 56px;
+  max-height: 140px;
+  overflow: hidden;
+}
+.adminlogin .workdetail > div .title[data-v-1f50faf9] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 95%);
+}
+.adminlogin .workdetail .more[data-v-1f50faf9] {
+  font-size: 12px;
+  color: #0078E2;
+  line-height: 20px;
+  text-align: center;
+  padding: 10px 0 18px;
+  cursor: pointer;
+}
+.adminlogin .works[data-v-1f50faf9] {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  text-align: left;
+}
+.adminlogin .works li[data-v-1f50faf9] {
+  box-shadow: 0 2px 4px 0 rgba(206, 225, 243, 0.5);
+}
+.adminlogin .works li h2[data-v-1f50faf9] {
+  font-size: 18px;
+  color: #4A4A4A;
+  line-height: 27px;
+  border-bottom: 1px solid #F4F4F4;
+  padding: 10px 20px;
+}
+.adminlogin .works li > div[data-v-1f50faf9] {
+  line-height: 24px;
+  font-size: 16px;
+  color: #4A4A4A;
+  padding: 10px 20px;
+}
+.adminlogin .works li > div .fr[data-v-1f50faf9] {
+  float: right;
+  background-image: linear-gradient(-90deg, #00B0F3 0%, #0078E2 100%);
+  border-radius: 12px;
+  width: 47px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 2px 0;
+  font-size: 11px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.adminlogin .works li > div .show[data-v-1f50faf9] {
+  width: 90%;
+  margin: 10px auto;
+}
+

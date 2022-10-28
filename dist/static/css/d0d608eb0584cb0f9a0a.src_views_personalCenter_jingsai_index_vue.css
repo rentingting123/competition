@@ -1,0 +1,189 @@
+.footBtn[data-v-f964f2b4] {
+  float: right;
+}
+em[data-v-f964f2b4] {
+  font-style: normal;
+}
+.jingsai .top[data-v-f964f2b4] {
+  height: 2.625rem;
+  line-height: 2.625rem;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+}
+.jingsai .top .left[data-v-f964f2b4] {
+  position: relative;
+}
+.jingsai .top .left .underway[data-v-f964f2b4],
+.jingsai .top .left .history[data-v-f964f2b4] {
+  background: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  border-bottom: 0;
+  border-radius: 0.3rem 0.3rem 0 0;
+  font-size: 0.9rem;
+  display: inline-block;
+  width: 4.5rem;
+  height: 2.625rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.jingsai .top .left > .current[data-v-f964f2b4] {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+}
+.jingsai .main[data-v-f964f2b4] {
+  width: 47.75rem;
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jingsai .main li[data-v-f964f2b4] {
+  width: 372px;
+  height: 96px;
+  padding: 14px 20px;
+  background: #ffffff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+.jingsai .main li .main_title[data-v-f964f2b4] {
+  display: flex;
+  justify-content: space-between;
+}
+.jingsai .main li .main_title .compe_title[data-v-f964f2b4] {
+  display: inline-block;
+  max-width: 300px;
+}
+.jingsai .main li .main_title .compe_right[data-v-f964f2b4] {
+  display: flex;
+  align-items: center;
+}
+.jingsai .main li .main_title .compe_right .compe_year[data-v-f964f2b4] {
+  font-size: 12px;
+  color: #7091b6;
+  letter-spacing: 0.17px;
+}
+.jingsai .main li .main_title .compe_right em[data-v-f964f2b4] {
+  margin-left: 8px;
+}
+.jingsai .main li .main_title .compe_right em img[data-v-f964f2b4] {
+  width: 20px;
+  height: 20px;
+}
+.jingsai .main li .main_content[data-v-f964f2b4] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #f7f7f7;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+.jingsai .main li .main_content .school[data-v-f964f2b4] {
+  display: flex;
+  align-items: center;
+}
+.jingsai .main li .main_content .school img[data-v-f964f2b4] {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+.jingsai .main li .main_content .school span[data-v-f964f2b4] {
+  font-size: 14px;
+  color: #4a4a4a;
+  letter-spacing: 0.2px;
+  width: 142px;
+  height: 20px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: left;
+}
+.jingsai .main li .main_content .detail[data-v-f964f2b4] {
+  float: right;
+  font-size: 14px;
+  color: #4A4A4A;
+}
+.jingsai .main li .main_content .detail p[data-v-f964f2b4] {
+  display: inline-block;
+}
+.jingsai .main li .main_content .detail p i[data-v-f964f2b4] {
+  color: #BBDBFF;
+  margin: 0 2px;
+}
+.jingsai .main li .main_content .type[data-v-f964f2b4] {
+  display: flex;
+  align-items: center;
+}
+.jingsai .main li .main_content .type img[data-v-f964f2b4] {
+  width: 15px;
+  height: 18px;
+  margin-left: 6px;
+}
+.jingsai .main li .main_content .type span[data-v-f964f2b4] {
+  font-size: 14px;
+  color: #4a4a4a;
+  letter-spacing: 0.2px;
+  text-align: right;
+  margin-left: 10px;
+}
+.jingsai .main li .compe_state[data-v-f964f2b4] {
+  width: 53px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+}
+.jingsai .main li .compe_state_0[data-v-f964f2b4] {
+  background: #0086fa;
+  color: #ffffff;
+}
+.jingsai .main li .compe_state_1[data-v-f964f2b4] {
+  background: #9b9b9b;
+  color: #ffffff;
+}
+.jingsai .main li .compe_state_back[data-v-f964f2b4] {
+  background: #da0724;
+  color: #ffffff;
+}
+.jingsai .main li .compe_state_5[data-v-f964f2b4] {
+  background: #87bc51;
+  color: #ffffff;
+}
+.jingsai .main li .teamtype[data-v-f964f2b4] {
+  background: #F8E71C;
+  border: 1px solid #979797;
+  font-size: 12px;
+  color: #4A4A4A;
+  text-align: center;
+  width: 50px;
+  line-height: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  bottom: -14px;
+  display: none;
+}
+.jingsai .main li:hover .teamtype[data-v-f964f2b4] {
+  display: block;
+}
+.noCompety[data-v-f964f2b4] {
+  padding: 100px;
+  text-align: center;
+}
+
+
+.input input {
+  text-indent: 0.5rem;
+}
+

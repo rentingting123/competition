@@ -1,0 +1,172 @@
+#playerDetails .teamDetails_top[data-v-06a9bb6a] {
+  width: 1000px;
+  margin: 25px auto;
+  font-size: 14px;
+  color: #1D86FF;
+  text-align: start;
+}
+#playerDetails .teamDetails_content[data-v-06a9bb6a] {
+  width: 1000px;
+  margin: auto;
+}
+#playerDetails .teamDetails_content .content[data-v-06a9bb6a] {
+  width: 100%;
+  padding: 50px 22px 70px 57px;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+#playerDetails .teamDetails_content .content .empty[data-v-06a9bb6a] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+#playerDetails .teamDetails_content .content .content_top[data-v-06a9bb6a] {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#playerDetails .teamDetails_content .content .content_top .titleName[data-v-06a9bb6a] {
+  position: relative;
+}
+#playerDetails .teamDetails_content .content .content_top .titleName i[data-v-06a9bb6a] {
+  position: absolute;
+  top: 3px;
+  left: -20px;
+}
+#playerDetails .teamDetails_content .content .content_top .content_topRight[data-v-06a9bb6a] {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+#playerDetails .teamDetails_content .content .content_top .content_topRight p[data-v-06a9bb6a] {
+  color: #D0021B;
+  cursor: pointer;
+}
+#playerDetails .teamDetails_content .content .content_top .content_topRight p + p[data-v-06a9bb6a] {
+  color: #1D86FF;
+}
+#playerDetails .teamDetails_content .content .content_topAmend[data-v-06a9bb6a] {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+#playerDetails .teamDetails_content .content .content_topAmend .operation span[data-v-06a9bb6a] {
+  color: #1D86FF;
+  cursor: pointer;
+}
+#playerDetails .teamDetails_content .content .content_topAmend .operation span + span[data-v-06a9bb6a] {
+  color: #9B9B9B;
+  margin-left: 10px;
+}
+#playerDetails .teamDetails_content .content .content_title[data-v-06a9bb6a] {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 20px;
+}
+#playerDetails .teamDetails_content .content .content_title[data-v-06a9bb6a]::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #5FF18B;
+  position: absolute;
+  top: 12px;
+  left: -20px;
+}
+#playerDetails .teamDetails_content .content .content_title .content_title_right[data-v-06a9bb6a] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#playerDetails .teamDetails_content .content .content_title .content_title_right img[data-v-06a9bb6a] {
+  width: 20px;
+  height: 22px;
+}
+#playerDetails .teamDetails_content .content .content_title .content_title_right span[data-v-06a9bb6a] {
+  font-size: 16px;
+  color: #1D86FF;
+  margin-left: 10px;
+}
+#playerDetails .teamDetails_content .content ol[data-v-06a9bb6a] {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#playerDetails .teamDetails_content .content ol li[data-v-06a9bb6a] {
+  width: 400px;
+  padding: 20px 30px 25px 0;
+  box-sizing: border-box;
+  display: flex;
+  text-align: start;
+}
+#playerDetails .teamDetails_content .content ol li > img[data-v-06a9bb6a] {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+#playerDetails .teamDetails_content .content ol li .team_message[data-v-06a9bb6a] {
+  font-size: 14px;
+  line-height: 24px;
+}
+#playerDetails .teamDetails_content .content ol li .team_message p[data-v-06a9bb6a]:nth-child(1) {
+  font-size: 16px;
+  display: flex;
+}
+#playerDetails .teamDetails_content .content ol li .team_message p:nth-child(1) em[data-v-06a9bb6a] {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #89ACD5;
+}
+#playerDetails .teamDetails_content .content ol li .team_message p:nth-child(1) span[data-v-06a9bb6a] {
+  font-size: 14px;
+  color: #89ACD5;
+}
+#playerDetails .teamDetails_content .content ol li .team_message p:nth-child(1) span + span[data-v-06a9bb6a] {
+  color: #D5606F;
+  margin-left: 60px;
+  cursor: pointer;
+}
+#playerDetails .teamDetails_content .content ol li .team_message .pass[data-v-06a9bb6a] {
+  width: 76px;
+}
+#playerDetails .teamDetails_content .content ol li .team_message button[data-v-06a9bb6a] {
+  margin-top: 10px;
+}
+#playerDetails .teamDetails_content .content .addAdvisers[data-v-06a9bb6a] {
+  width: 400px;
+  height: 125px;
+  float: left;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+#playerDetails .teamDetails_content .content .addAdvisers div[data-v-06a9bb6a] {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #D8D8D8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#playerDetails .teamDetails_content .content .addAdvisers span[data-v-06a9bb6a] {
+  font-size: 14px;
+  margin-left: 20px;
+}
+

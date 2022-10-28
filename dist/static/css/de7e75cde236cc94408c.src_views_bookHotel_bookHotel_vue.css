@@ -1,0 +1,370 @@
+.book_hotel[data-v-51576c46] {
+  width: 1040px;
+  margin: 0 auto;
+  font-size: 0.7rem;
+}
+.book_hotel .booked[data-v-51576c46] {
+  width: 100%;
+}
+.book_hotel .booked .title[data-v-51576c46] {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+.book_hotel .booked .main[data-v-51576c46] {
+  background: #fff;
+  width: 100%;
+}
+.book_hotel .booked .main .main_content[data-v-51576c46] {
+  width: 674px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.book_hotel .booked .main .main_content .hotel_msg[data-v-51576c46] {
+  margin-bottom: 2rem;
+}
+.book_hotel .booked .main .main_content .hotel_msg li[data-v-51576c46] {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.book_hotel .booked .main .main_content .hotel_msg li > span[data-v-51576c46] {
+  display: inline-block;
+  width: 16%;
+  margin-right: 2rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.book_hotel .booked .main .main_content .hotel_msg li em[data-v-51576c46] {
+  display: inline-block;
+  text-align: left;
+  font-style: normal;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .booked .main .main_content .hotel_msg li[data-v-51576c46] .el-select {
+  width: 430px;
+}
+.book_hotel .booked .main .main_content .book_date[data-v-51576c46] {
+  background: #FBFBFB;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem 3rem;
+}
+.book_hotel .booked .main .main_content .book_date .start_date[data-v-51576c46] {
+  flex: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .booked .main .main_content .book_date .start_date p[data-v-51576c46]:last-child {
+  margin-top: 0.5rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+}
+.book_hotel .booked .main .main_content .book_date .book_nights[data-v-51576c46] {
+  width: 8rem;
+  margin-top: 1.5rem;
+  color: #1D86FF;
+  letter-spacing: 1px;
+}
+.book_hotel .booked .main .main_content .book_date .book_nights span[data-v-51576c46] {
+  margin: 0 1rem;
+}
+.book_hotel .booked .main .main_content .book_date .end_date[data-v-51576c46] {
+  flex: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .booked .main .main_content .book_date .end_date p[data-v-51576c46]:last-child {
+  margin-top: 0.5rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+}
+.book_hotel .booked .main .main_content .book_room[data-v-51576c46] {
+  margin-top: 2rem;
+}
+.book_hotel .booked .main .main_content .book_room .book_room_title[data-v-51576c46] {
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.book_hotel .booked .main .main_content .book_room .book_room_title span[data-v-51576c46] {
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .booked .main .main_content .book_room .book_room_title span[data-v-51576c46]:nth-child(1) {
+  margin-right: 5rem;
+  margin-left: -2rem;
+}
+.book_hotel .booked .main .main_content .book_room .book_room_title span[data-v-51576c46]:nth-child(2) {
+  margin-left: 1rem;
+}
+.book_hotel .booked .main .main_content .book_room .book_room_title span[data-v-51576c46]:nth-child(4) {
+  margin-right: 5rem;
+}
+.book_hotel .booked .main .main_content .book_room .rooms[data-v-51576c46] {
+  line-height: 3.5rem;
+  height: 3.5rem;
+}
+.book_hotel .booked .main .main_content .book_room li span[data-v-51576c46] {
+  width: 20%;
+  margin: 0 4rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  width: 5rem;
+}
+.book_hotel .booked .main .main_content .book_room li span[data-v-51576c46]:nth-child(1) {
+  width: 6rem;
+  float: left;
+}
+.book_hotel .booked .main .main_content .book_room li span[data-v-51576c46]:nth-child(2) {
+  flex: 1;
+  float: left;
+}
+.book_hotel .booked .main .main_content .book_room li span[data-v-51576c46]:nth-child(3) {
+  flex: 1;
+  float: left;
+}
+.book_hotel .booked .main .main_content .book_room li span[data-v-51576c46]:nth-child(4) {
+  width: 6rem;
+}
+.book_hotel .booked .main .main_content .total_money[data-v-51576c46] {
+  background: #F6F6F6;
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  position: relative;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+.book_hotel .booked .main .main_content .total_money .total[data-v-51576c46] {
+  font-size: 0.8rem;
+  color: #9B9B9B;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.book_hotel .booked .main .main_content .total_money .tip[data-v-51576c46] {
+  font-size: 0.7rem;
+  letter-spacing: 0.86px;
+}
+.book_hotel .booked .main .main_content .total_money span[data-v-51576c46] {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  margin-top: -0.6rem;
+  font-size: 1.2rem;
+  color: #F5A623;
+  letter-spacing: 1.71px;
+}
+.book_hotel .booked .main .main_content .total_money span em[data-v-51576c46] {
+  font-style: normal;
+}
+.book_hotel .book[data-v-51576c46] {
+  width: 100%;
+}
+.book_hotel .book .title[data-v-51576c46] {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+.book_hotel .book .main[data-v-51576c46] {
+  background: #fff;
+  width: 100%;
+}
+.book_hotel .book .main .main_content[data-v-51576c46] {
+  width: 674px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.book_hotel .book .main .main_content .hotel_msg[data-v-51576c46] {
+  margin-bottom: 2rem;
+}
+.book_hotel .book .main .main_content .hotel_msg li[data-v-51576c46] {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.book_hotel .book .main .main_content .hotel_msg li > span[data-v-51576c46] {
+  display: inline-block;
+  width: 16%;
+  margin-right: 2rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.book_hotel .book .main .main_content .hotel_msg li em[data-v-51576c46] {
+  display: inline-block;
+  text-align: left;
+  font-style: normal;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .book .main .main_content .hotel_msg li[data-v-51576c46] .el-select {
+  width: 430px;
+}
+.book_hotel .book .main .main_content .book_date[data-v-51576c46] {
+  background: #FBFBFB;
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+}
+.book_hotel .book .main .main_content .book_date .sel_date[data-v-51576c46] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .start_date[data-v-51576c46] {
+  flex: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .start_date p[data-v-51576c46]:last-child {
+  margin-top: 0.5rem;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .book_nights[data-v-51576c46] {
+  width: 10rem;
+  margin-top: 1.5rem;
+  color: #1D86FF;
+  letter-spacing: 1px;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .book_nights span[data-v-51576c46] {
+  margin: 0 1rem;
+  font-size: 14px;
+  color: #1D86FF;
+  letter-spacing: 1px;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .book_nights[data-v-51576c46] :first-child {
+  margin-left: -4rem;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .end_date[data-v-51576c46] {
+  flex: 1;
+  text-align: left;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .end_date p[data-v-51576c46]:last-child {
+  margin-top: 0.5rem;
+}
+.book_hotel .book .main .main_content .book_date .sel_date .el-input[data-v-51576c46] {
+  width: 9rem;
+}
+.book_hotel .book .main .main_content .book_date .date_tip[data-v-51576c46] {
+  margin-top: 1rem;
+  line-height: 1rem;
+  text-align: left;
+  color: #9B9B9B;
+  letter-spacing: 0.86px;
+  font-size: 12px;
+}
+.book_hotel .book .main .main_content .book_room[data-v-51576c46] {
+  margin-top: 2rem;
+}
+.book_hotel .book .main .main_content .book_room .book_room_title[data-v-51576c46] {
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.book_hotel .book .main .main_content .book_room .book_room_title span[data-v-51576c46]:nth-child(1) {
+  margin-right: 5rem;
+  margin-left: -1rem;
+}
+.book_hotel .book .main .main_content .book_room .book_room_title span[data-v-51576c46]:nth-child(4) {
+  margin-right: 5rem;
+}
+.book_hotel .book .main .main_content .book_room .rooms[data-v-51576c46] {
+  line-height: 3.5rem;
+  height: 3.5rem;
+}
+.book_hotel .book .main .main_content .book_room li span[data-v-51576c46] {
+  width: 20%;
+  margin: 0 4rem;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  width: 5rem;
+}
+.book_hotel .book .main .main_content .book_room li > span[data-v-51576c46]:nth-child(1) {
+  flex: 1;
+  float: left;
+}
+.book_hotel .book .main .main_content .book_room li > span[data-v-51576c46]:nth-child(2) {
+  flex: 1;
+  float: left;
+}
+.book_hotel .book .main .main_content .book_room li > span[data-v-51576c46]:nth-child(3) {
+  flex: 1;
+  float: left;
+}
+.book_hotel .book .main .main_content .book_room li > span[data-v-51576c46]:nth-child(4) {
+  width: 8rem;
+}
+.book_hotel .book .main .main_content .book_room li .el-input-number[data-v-51576c46] {
+  width: 8rem;
+}
+.book_hotel .book .main .main_content .total_money[data-v-51576c46] {
+  background: #F6F6F6;
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  position: relative;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+.book_hotel .book .main .main_content .total_money .total[data-v-51576c46] {
+  font-size: 0.8rem;
+  color: #9B9B9B;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.book_hotel .book .main .main_content .total_money .tip[data-v-51576c46] {
+  font-size: 0.7rem;
+  letter-spacing: 0.86px;
+}
+.book_hotel .book .main .main_content .total_money span[data-v-51576c46] {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  margin-top: -0.6rem;
+  font-size: 1.2rem;
+  color: #F5A623;
+  letter-spacing: 1.71px;
+}
+.book_hotel .book .main .main_content .total_money span em[data-v-51576c46] {
+  font-style: normal;
+}
+

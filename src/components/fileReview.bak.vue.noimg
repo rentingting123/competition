@@ -1,0 +1,154 @@
+<template>
+  <div>
+    <div v-if="isPdf()">
+      <div :id="`pdf-div-${index}`" v-loading="loading">
+        <div v-for="page in pageNum" :key="page" :id="`pdf-${index}-${page}`" ></div>
+      </div>
+    </div>
+    <div v-if="isAudio()">
+      <div :id="`audio-div-${index}`"></div>
+      <audio :src="url" style="width: 100%;" controls="controls">您的浏览器不支持 video 标签。</audio>
+    </div>
+    <div v-if="isVideo()">
+      <video :src="url" style="width: 100%;" controls="controls">您的浏览器不支持 video 标签。</video>
+    </div>
+  </div>
+</template>
+
+<script>
+
+const PDFJS = require("pdfjs-dist")
+const pdfjsWorker = require('pdfjs-dist/build/pdf.worker.entry.js')
+PDFJS.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+import { loadJs } from "@@/utils/util";
+export default {
+
+  name: "FileReview",
+  props: ["url", "index", 'isdownload'],
+  data() {
+    return {
+      name: "free9",
+      videoList: ["mp4", "avi"],
+      audioList: ["mp3"],
+      pageNum:0,
+      loading:false,
+    };
+  },
+  mounted() {
+    if (this.isPdf()) {
+      //todo判断可以下载执行
+      if(this.isdownload){
+        this.pdfObj()
+      }else{
+        this.pdfLoad()
+      }
+      
+    }
+  },
+  methods: {
+    pdfObj(){
+      this.loading=true
+          let _url =
+        this.url.indexOf("http:") > -1
+          ? this.url.replace("http:", "https:")
+          : this.url;
+      try{
+         PDFObject.embed(_url,`#pdf-div-${this.index}`)
+         this.loading=false
+      }
+      catch(e){
+        loadJs("https://competition-web.oss-cn-hangzhou.aliyuncs.com/cc/pdfobject.min.js").then(this.pdfObj)
+      }
+    },
+    renderPDF(pdf, ci) {
+      pdf.getPage(ci).then(page => {
+        // 设置展示比例
+        const scale = 1.5;
+        // 获取pdf尺寸
+        const viewport = page.getViewport({scale:scale});
+        // 获取需要渲染的元素
+        const canvas = document.createElement("canvas");
+        canvas.setAttribute("style", "width: 100%");
+        const context = canvas.getContext("2d");
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        const container = document.getElementById(`pdf-${this.index}-${ci}`);
+
+        container.appendChild(canvas);
+
+        const renderContext = {
+          canvasContext: context,
+          viewport: viewport
+        };
+
+        page.render(renderContext);
+      });
+    },
+    
+    pdfLoad(){
+           let _url =
+        this.url.indexOf("http:") > -1
+          ? this.url.replace("http:", "https:")
+          : this.url;
+      this.loading = true
+      let CMAP_URL = 'https://competition-web.oss-cn-hangzhou.aliyuncs.com/cmaps/'//'https://unpkg.com/pdfjs-dist@2.7.570/cmaps/'
+      var loadingTask = PDFJS.getDocument({
+        url:_url,
+        cMapUrl: CMAP_URL,
+        cMapPacked: true
+      });
+      loadingTask.promise.then( pdf => {
+        this.pageNum = pdf.numPages
+        for (let i = 1; i <= pdf.numPages; i++) {
+          this.renderPDF(pdf, i);
+        }
+        this.loading = false
+      }).catch(err=>{
+        if(err.message == 'Failed to fetch')
+        {window.location.reload()}
+        this.$message("PDF文件加载失败："+err.message);
+        this.loading = false;
+        const errDom = document.createElement('div')
+              errDom.innerHTML = "文件加载失败："+err.message
+              errDom.className = 'err-pdf-dom'
+        const container = document.getElementById(`pdf-div-${this.index}`);
+              container.appendChild(errDom)
+      });
+    },
+    isPdf() {
+      if (this.url) {
+        return this.url.endsWith(".pdf");
+      }
+      return false;
+    },
+    isAudio() {
+      if (this.url) {
+        const index = this.url.lastIndexOf(".");
+        const extra = this.url.substring(index + 1);
+        return this.audioList.includes(extra);
+      }
+      return false;
+    },
+    isVideo() {
+      if (this.url) {
+        const index = this.url.lastIndexOf(".");
+        const extra = this.url.substring(index + 1);
+
+        return this.videoList.includes(extra.toLowerCase());
+      }
+      return false;
+    }
+  }
+};
+</script>
+
+<style>
+.pdfobject-container{
+  height: calc(100vh - 150px);
+}
+.err-pdf-dom{
+  padding: 20px;
+  color: red
+}
+</style>

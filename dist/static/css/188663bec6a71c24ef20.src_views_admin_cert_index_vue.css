@@ -1,0 +1,66 @@
+.cert[data-v-34599481] {
+  background: #ffffff;
+  margin: 20px;
+  padding: 0 40px;
+  overflow: auto;
+  min-width: 1250px;
+}
+.top[data-v-34599481] {
+  padding: 16px 0 26px;
+  border-bottom: 1px solid #EAEAEA;
+  text-align: left;
+}
+.top .button[data-v-34599481] {
+  width: 500px;
+  height: 54px;
+  float: left;
+  margin-top: 11px;
+}
+.top ul[data-v-34599481] {
+  float: left;
+  background: #F5F7FA;
+}
+.top ul p[data-v-34599481] {
+  width: 15px;
+  float: left;
+  height: 54px;
+  line-height: 54px;
+  color: #C0C4CC;
+  font-size: 30px;
+}
+.top ul li[data-v-34599481] {
+  float: left;
+  width: 240px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 16px;
+  color: #909399;
+}
+.top ul li i[data-v-34599481] {
+  display: none;
+}
+.top ul li span[data-v-34599481] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #909399;
+  border-radius: 100%;
+}
+.top ul li.on[data-v-34599481] {
+  color: #5CB87A;
+}
+.top ul li.on i[data-v-34599481] {
+  display: inline-block;
+}
+.top ul li.on span[data-v-34599481] {
+  display: none;
+}
+.top ul li.active[data-v-34599481] {
+  color: #303133;
+}
+.top ul li.active span[data-v-34599481] {
+  border: 1px solid #303133;
+}
+

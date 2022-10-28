@@ -1,0 +1,230 @@
+.el-el-upload[data-v-38a9ea20] {
+  position: relative;
+  margin-top: 10px;
+}
+.el-el-upload .progress[data-v-38a9ea20] {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+.el-el-upload .progress .el-progress[data-v-38a9ea20] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.el-el-upload .filename[data-v-38a9ea20] {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+.el-el-upload .top[data-v-38a9ea20] {
+  padding-top: 40px;
+}
+
+.editor[data-v-b286fc80] {
+  position: relative;
+  height: calc(100vh - 52px);
+  overflow: hidden;
+}
+.upload[data-v-b286fc80] {
+  position: absolute;
+  font-size: 0px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ql-editor {
+  font-family: "PingFang SC", "Source Han Sans", "Microsoft Yahei", "Heiti SC";
+}
+.ql-editor .ql-toolbar {
+  font-family: "PingFang SC", "Source Han Sans", "Microsoft Yahei", "Heiti SC";
+}
+.ql-editor .ql-container {
+  height: calc(100vh - 52px - 120px);
+  overflow: auto;
+  font-family: "PingFang SC", "Source Han Sans", "Microsoft Yahei", "Heiti SC";
+}
+.ql-sourceEditor {
+  background: url("https://web.moocollege.com/mooc/hzq/competition/competition/%E9%99%84%E4%BB%B6.svg") no-repeat !important;
+  background-size: 24px auto !important;
+  background-position: center center !important;
+}
+.ql-pdfEditor {
+  background: url("https://web.moocollege.com/mooc/hzq/competition/competition/pdf1.svg") no-repeat !important;
+  background-size: 16px 16px;
+  background-position: center center !important;
+}
+
+
+.pdfobject-container{
+  height: calc(100vh - 150px);
+}
+.err-pdf-dom{
+  padding: 20px;
+  color: red
+}
+
+.ow365m[data-v-740bfff8] {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.ow365l[data-v-740bfff8] {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2001;
+}
+.ow365ctool[data-v-740bfff8] {
+  position: absolute;
+  top: 1px;
+  left: 88px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.ow365ctool[data-v-740bfff8]:hover {
+  background-color: #5a5a5a;
+}
+
+#issue[data-v-a73a7c1c] {
+  text-align: start;
+  background: #fff;
+}
+#issue .header_fixed[data-v-a73a7c1c] {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  background: #fdf6d0;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  text-align: start;
+}
+#issue .header_fixed .header_content[data-v-a73a7c1c] {
+  width: 800px;
+  margin: auto;
+  cursor: pointer;
+}
+#issue .issue_main[data-v-a73a7c1c] {
+  padding-bottom: 100px;
+  width: 800px;
+  margin: 100px auto 0;
+  text-align: start;
+}
+#issue .issue_main .issue_title[data-v-a73a7c1c] {
+  margin-bottom: 30px;
+  display: flex;
+}
+#issue .issue_main .issue_img[data-v-a73a7c1c] {
+  margin-bottom: 30px;
+  display: flex;
+}
+#issue .issue_main .issue_tag .tags[data-v-a73a7c1c] {
+  margin: 30px 0;
+}
+#issue .issue_main .issue_tag .tags .tag[data-v-a73a7c1c] {
+  margin: 10px;
+}
+#issue .issue_main .issue_tag .tags .tag .el-checkbox-button__inner[data-v-a73a7c1c] {
+  border-radius: 30px !important;
+}
+#issue .issue_main .header_right[data-v-a73a7c1c] {
+  margin: 30px 0;
+}
+#issue .issue_main .avatar-uploader .el-upload[data-v-a73a7c1c] {
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+#issue .issue_main .avatar-uploader .el-upload[data-v-a73a7c1c]:hover {
+  border-color: #409eff;
+}
+#issue .issue_main .avatar-uploader-icon[data-v-a73a7c1c] {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background: #f0f2f4;
+  border-radius: 5px;
+  float: left;
+}
+#issue .issue_main .avatar[data-v-a73a7c1c] {
+  width: 178px;
+  height: 120px;
+  display: inline-block;
+  float: left;
+}
+#issue .issue_main .layout[data-v-a73a7c1c] {
+  font-size: 12px;
+  color: #9b9b9b;
+  text-align: start;
+  float: left;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+#issue[data-v-a73a7c1c] .el-dialog__header {
+  border-bottom: 1px solid #dedede;
+}
+#issue[data-v-a73a7c1c] .el-dialog__footer {
+  padding: 10px 20px;
+  border-top: 1px solid #dedede;
+}
+#issue[data-v-a73a7c1c] .el-checkbox {
+  display: block;
+  margin-top: 17px;
+}
+#issue .pdfupload[data-v-a73a7c1c] {
+  position: relative;
+  margin: 10px 0;
+}
+#issue .pdfupload:hover .pdfedit[data-v-a73a7c1c] {
+  display: flex;
+}
+#issue .pdfupload .pdfedit[data-v-a73a7c1c] {
+  width: 100%;
+  padding: 50px 0;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.issue_tag .el-checkbox-button__inner {
+  border-radius: 30px !important;
+}
+.issue_tag .el-checkbox-button .el-checkbox-button__inner {
+  border: 1px solid #dcdfe6;
+}
+.issue_tag .el-checkbox-button.is-checked .el-checkbox-button__inner {
+  border: 1px solid #409eff;
+}
+.i-text {
+  display: block;
+  overflow: hidden;
+  height: auto;
+  background: red;
+}
+

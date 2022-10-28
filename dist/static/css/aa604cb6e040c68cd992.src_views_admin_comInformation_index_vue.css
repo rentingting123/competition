@@ -1,0 +1,27 @@
+
+.current[data-v-47fe37f0]{
+    background-color: #409eff !important;
+    color: #fff;
+}
+.content[data-v-47fe37f0]{
+  background: #fff;
+  padding: 16px;
+      margin-top: 27px;
+}
+.table[data-v-47fe37f0]{
+  border-color: #dedede;
+}
+.table th[data-v-47fe37f0],td[data-v-47fe37f0]{
+  height: 50px;
+}
+.table th[data-v-47fe37f0]{
+  width: 160px;
+  font-weight: 400;
+  background: #f5fafe;
+}
+.table td[data-v-47fe37f0]{
+    padding-left: 20px;
+    font-weight: 800;
+    text-align: left;
+}
+

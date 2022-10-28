@@ -1,0 +1,19 @@
+
+[data-v-767479d6] .el-table__header th{
+  background: rgb(241, 242, 244);
+}
+.head[data-v-767479d6]{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(240, 242, 244);
+}
+.home[data-v-767479d6]{
+  text-align: left;
+  padding: 0;
+}
+.content[data-v-767479d6]{
+  padding: 20px;
+}
+

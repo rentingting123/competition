@@ -1,0 +1,255 @@
+ul[data-v-80f8daf8] {
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+ul li[data-v-80f8daf8] {
+  margin: 20px 15px 0;
+  width: 260px;
+  height: 220px;
+  background: #ffffff;
+  border-top: 1px solid #e62323;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  position: relative;
+  cursor: pointer;
+}
+ul li > div[data-v-80f8daf8] {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ul li i[data-v-80f8daf8] {
+  font-size: 60px;
+  color: #E62323;
+}
+ul li h3[data-v-80f8daf8] {
+  position: relative;
+  height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+ul li h3 span[data-v-80f8daf8] {
+  display: block;
+  width: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 16px;
+  color: #4A4A4A;
+}
+ul li p[data-v-80f8daf8] {
+  font-size: 13px;
+  color: #4A4A4A;
+  line-height: 18px;
+  width: 230px;
+  height: 90px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: none;
+}
+ul li:hover p[data-v-80f8daf8] {
+  display: block;
+}
+ul .l2[data-v-80f8daf8] {
+  border-top: 1px solid #F5A623;
+}
+ul .l2 i[data-v-80f8daf8] {
+  color: #F5A623;
+}
+ul .l3[data-v-80f8daf8] {
+  border-top: 1px solid #F8C51C;
+}
+ul .l3 i[data-v-80f8daf8] {
+  color: #F8C51C;
+}
+ul .l4[data-v-80f8daf8] {
+  border-top: 1px solid #1EBD18;
+}
+ul .l4 i[data-v-80f8daf8] {
+  color: #1EBD18;
+}
+ul .l5[data-v-80f8daf8] {
+  border-top: 1px solid #CB55E3;
+}
+ul .l5 i[data-v-80f8daf8] {
+  color: #CB55E3;
+}
+ul .l6[data-v-80f8daf8] {
+  border-top: 1px solid #BA6BFF;
+}
+ul .l6 i[data-v-80f8daf8] {
+  color: #BA6BFF;
+}
+ul .l7[data-v-80f8daf8] {
+  border-top: 1px solid #0078E2;
+}
+ul .l7 i[data-v-80f8daf8] {
+  color: #0078E2;
+}
+ul .l8[data-v-80f8daf8] {
+  border-top: 1px solid #4AA1F2;
+}
+ul .l8 i[data-v-80f8daf8] {
+  color: #4AA1F2;
+}
+
+h3[data-v-2e46b977] {
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 225px;
+  height: 43px;
+  line-height: 43px;
+  background: url(https://web.moocollege.com/mooc/hzq/competition/introduction/bg2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 77px auto 38px;
+}
+h3.on[data-v-2e46b977] {
+  background: url(https://web.moocollege.com/mooc/hzq/competition/introduction/bg1.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ul[data-v-2e46b977] {
+  margin: 0 auto;
+  text-align: center;
+  width: 825px;
+}
+ul li[data-v-2e46b977] {
+  float: left;
+  margin-right: 80px;
+  color: #FFFFFF;
+}
+ul li i[data-v-2e46b977] {
+  font-size: 67.5px;
+  display: block;
+}
+ul li p[data-v-2e46b977] {
+  font-size: 16px;
+  margin-top: 27.5px;
+}
+ul[data-v-2e46b977] :nth-child(5) {
+  margin-right: 0;
+}
+ul.on li[data-v-2e46b977] {
+  margin-right: 118px;
+  color: #EDC686;
+  margin-bottom: 43px;
+  width: 112px;
+}
+ul.on[data-v-2e46b977] :nth-child(5) {
+  margin-right: 118px;
+}
+ul.on[data-v-2e46b977] :nth-child(4n) {
+  margin-right: 0;
+}
+
+ul[data-v-3e717535] {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+ul li[data-v-3e717535] {
+  width: 200px;
+  margin-right: 100px;
+  text-align: center;
+  float: left;
+}
+ul li .i[data-v-3e717535] {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100%;
+  background: #FAFAFA;
+}
+ul li .i i[data-v-3e717535] {
+  font-size: 65px;
+  color: #78BEFF;
+}
+ul li .i[data-v-3e717535]:hover {
+  background: #78BEFF;
+}
+ul li .i:hover i[data-v-3e717535] {
+  color: #FAFAFA;
+}
+ul li h3[data-v-3e717535] {
+  font-size: 16px;
+  color: #4A4A4A;
+  margin: 24px 0 10px 0;
+}
+ul li .mess[data-v-3e717535] {
+  font-size: 13px;
+  color: #4A4A4A;
+}
+ul[data-v-3e717535] :nth-child(4n) {
+  margin-right: 0;
+}
+
+.introductionProduct[data-v-08d0cd97] {
+  width: 100%;
+  height: auto;
+}
+.introductionProduct .banner[data-v-08d0cd97] {
+  max-width: 1920px;
+  height: 610px;
+  margin: 0 auto;
+  background: url(https://web.moocollege.com/mooc/hzq/competition/introduction/introductionProduct.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.introductionProduct .characteristic[data-v-08d0cd97] {
+  width: 100%;
+  background: #F8FAFC;
+  padding: 96px 0 75px 0;
+}
+.introductionProduct .characteristic h1[data-v-08d0cd97] {
+  font-size: 30px;
+  color: #4A4A4A;
+  text-align: center;
+  line-height: 41px;
+}
+.introductionProduct .characteristic h1 span[data-v-08d0cd97] {
+  margin: 0 20px;
+}
+.introductionProduct .characteristic h1 i[data-v-08d0cd97] {
+  color: #3EA5FF;
+  font-size: 24px;
+  line-height: 41px;
+}
+.introductionProduct .characteristic h2[data-v-08d0cd97] {
+  font-size: 20px;
+  color: #4A4A4A;
+  text-align: center;
+  line-height: 30px;
+  margin: 34px 0;
+  font-weight: 150;
+}
+.introductionProduct .func[data-v-08d0cd97] {
+  background: #ffffff;
+  padding: 74px 0 123px 0;
+}
+.introductionProduct .func img[data-v-08d0cd97] {
+  width: 1114px;
+  margin: 0 auto;
+}
+.introductionProduct .servers[data-v-08d0cd97] {
+  background: #1B2935;
+  padding: 67px 0 100px 0;
+}
+.introductionProduct .servers h1 span[data-v-08d0cd97] {
+  color: #ffffff;
+}
+.introductionProduct .worth[data-v-08d0cd97] {
+  background: #ffffff;
+  padding: 127px 0 145px 0;
+}
+

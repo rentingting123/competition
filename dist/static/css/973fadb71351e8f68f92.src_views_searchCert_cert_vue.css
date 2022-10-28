@@ -1,0 +1,53 @@
+.searchCert[data-v-61d7a3bd] {
+  background: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+}
+.searchCert .logo[data-v-61d7a3bd] {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto 58px;
+  padding-top: 86px;
+}
+.searchCert .search[data-v-61d7a3bd] {
+  width: 90%;
+  margin: 0 auto;
+}
+.searchCert .search[data-v-61d7a3bd] .el-input__inner {
+  border: 1px solid #0078E2;
+  border-radius: 8px 0px 0px 8px;
+}
+.searchCert .search[data-v-61d7a3bd] .el-input-group__append {
+  background: #0078E2;
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid #0078E2;
+  color: #ffffff;
+  cursor: pointer;
+}
+.searchCert .result[data-v-61d7a3bd] {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+.searchCert .result img[data-v-61d7a3bd] {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.searchCert .result span[data-v-61d7a3bd] {
+  color: red;
+}
+@media screen and (min-width: 750px) {
+.searchCert .logo[data-v-61d7a3bd] {
+    width: 348px;
+}
+.searchCert .search[data-v-61d7a3bd] {
+    width: 600px;
+}
+.searchCert .result[data-v-61d7a3bd] {
+    width: 600px;
+}
+}
+
